@@ -3,7 +3,7 @@ Boby Jamis Hari sel-1154040
 
 Analisis PesertaBimbel.xml :
 ***********************************************
-Dalam kode tersebut ada tag <?xml version="1.0" encoding="UTF-8"?> itu merupakan tag penting atau 
+Dalam kode tersebut ada tag "<?xml version="1.0" encoding="UTF-8"?>" itu merupakan tag penting atau 
 jantungnya dari xml, merupakan sebuah Instruksi Proses / direktif khusus untuk mengelola  xml, Jadi 
 jika kita ingin membuat sebuah xml  maka Perintah tersebut harus ada, jika tidak maka srcpt tersebut 
 tidak bisa di compile menjadi xml. Diawali <?....?>
