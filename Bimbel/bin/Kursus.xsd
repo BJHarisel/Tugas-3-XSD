@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="xsixml"/>
+    <xs:element name="Kursus">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="alamat"/>
+                <xs:element ref="email"/>
+                <xs:element ref="jeniskelamin"/>
+                <xs:element ref="kampus"/>
+                <xs:element ref="kelas"/>
+                <xs:element ref="nama"/>
+                <xs:element ref="nip"/>
+                <xs:element ref="phone"/>
+                <xs:element ref="umur"/>
+            </xs:choice>
+            <xs:attribute name="Data" use="required" type="xs:NCName"/>
+            <xs:attribute ref="xsi:noNamespaceSchemaLocation" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="email" type="xs:string"/>
+    <xs:element name="jeniskelamin" type="xs:NCName"/>
+    <xs:element name="kampus">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="alamat"/>
+            </xs:sequence>
+            <xs:attribute name="nama" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="kelas" type="xs:string"/>
+    <xs:element name="nama" type="xs:string"/>
+    <xs:element name="nip" type="xs:integer"/>
+    <xs:element name="phone" type="xs:integer"/>
+    <xs:element name="umur" type="xs:integer"/>
+    <xs:element name="alamat" type="xs:string"/>
+</xs:schema>

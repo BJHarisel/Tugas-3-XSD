@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Kursus Data="Peserta" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Kursus.xsd">
+	
+	<nama>Yusril Rizal </nama>
+	<nip>201701</nip>
+	<umur>20</umur>
+	<jeniskelamin>Laki-laki</jeniskelamin>
+	<alamat>Bogor</alamat>
+	<kelas>Pemrograman Web</kelas>
+	<phone>081513851850</phone>
+	<email>yusrilrizal10@gmail.com</email>
+	<kampus nama="Politeknik Pos Indonesia">
+		<alamat>jalan sariasih no.54 Bandung</alamat>
+	</kampus>
+	
+	<nama>Dhea Amelia </nama>
+	<nip>201502</nip>
+	<umur>22</umur>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<alamat>Subang</alamat>
+	<kelas>Adminstrasi</kelas>
+	<phone>085724085396</phone>
+	<email>damelia200@gmail.com</email>
+	<kampus nama="Universitas Islam Bandung">
+		<alamat>Jl. Tamansari Bandung Wetan, Bandung </alamat>
+	</kampus>
+	
+	<nama>Bam Setiawan</nama>
+	<nip>201403</nip>
+	<umur>23</umur>
+	<jeniskelamin>Laki-laki</jeniskelamin>
+	<alamat>Jogja</alamat>
+	<kelas>Android</kelas>
+	<phone>082281351399</phone>
+	<email>bambam@gmail.com</email>
+	<kampus nama="Bina Sarana Informatika">
+		<alamat>jalan Muhhamadiya Yogyakarta</alamat>
+	</kampus>
+	
+
+	
+	<nama>Rizky Abdi Perdana</nama>
+	<nip>201404</nip>
+	<umur>23</umur>
+	<kelas>Android</kelas>
+	<phone>082281351366</phone>
+	<jeniskelamin>Laki-laki</jeniskelamin>
+	<alamat>Kuthacahne</alamat>
+	<email>rizkyperdana@yahoo.co.id</email>
+	<kampus nama="Universitas Islam Sykh Kuala">
+		<alamat>Raden Intan Aceh</alamat>
+	</kampus>
+	
+	<nama>Diana Satima Gistivani</nama>
+	<nip>201605</nip>
+	<umur>21</umur>
+	<kelas>Pemrograman Web</kelas>
+	<phone>082281351333</phone>
+	<jeniskelamin>Perempuan</jeniskelamin>
+	<alamat>Ciamis</alamat>
+	<email>satimagistivani@gmail.com</email>
+	<kampus nama="Politeknik Pos Indonesia">
+		<alamat>jalan sariasih no.54 Bandung</alamat>
+	</kampus>
+</Kursus>
